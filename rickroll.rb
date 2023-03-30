@@ -1,4 +1,4 @@
-def rick_roll
+def rickroll
   FRAMES.each do |frame|
     puts frame
     sleep 0.1
@@ -1004,6 +1004,6 @@ ft11ttt11tttt1tt11i,:,.....,11i,i1i,1tt,,,.........,:i11111111t1tffttt
 11111111tttttt,,,,::............,::::::,,...............ittttt11111111
 1111111111tttt1:,,..............,:::::,,,,.......,:,::,:1t111111111111
 11111111111111111i,,i:..........,:,,,.,,.,.......::,,i,it1ttt111111111"
-]
+].freeze
 
-rick_roll
+rickroll
