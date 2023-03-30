@@ -1,10 +1,8 @@
 def rick_roll
-  loop do
     FRAMES.each do |frame|
       puts frame
       sleep 0.1
     end
-  end
 end
 
 FRAMES = [
