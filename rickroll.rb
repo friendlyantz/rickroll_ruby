@@ -1,3 +1,12 @@
+def rick_roll
+  loop do
+    FRAMES.each do |frame|
+      puts frame
+      sleep 0.1
+    end
+  end
+end
+
 FRAMES = [
 "tfffLfttffffffLLffffttttttttttt1tfffffffffftttttt111111tffffffffftttff
 fttfffttfffffffffttfftttttt1t1tt11tfffffftttttt111t111111ttffffLLffttf
@@ -999,9 +1008,4 @@ ft11ttt11tttt1tt11i,:,.....,11i,i1i,1tt,,,.........,:i11111111t1tffttt
 11111111111111111i,,i:..........,:,,,.,,.,.......::,,i,it1ttt111111111"
 ]
 
-loop do
-  FRAMES.each do |frame|
-    puts frame
-    sleep 0.1
-  end
-end
+rick_roll
